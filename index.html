@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Attendance System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/html5-qrcode" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1>📷 QR Attendance System</h1>
+</header>
+
+<div class="container">
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2>Present</h2>
+            <span id="presentCount">0</span>
+        </div>
+
+        <div class="card">
+            <h2>Late</h2>
+            <span id="lateCount">0</span>
+        </div>
+
+        <div class="card">
+            <h2>Absent</h2>
+            <span id="absentCount">0</span>
+        </div>
+
+    </div>
+
+    <div class="actions">
+
+        <a href="scan.html" class="btn">
+            📷 Scan QR
+        </a>
+
+        <a href="attendance.html" class="btn">
+            📋 Attendance
+        </a>
+
+        <a href="students.html" class="btn">
+            👨‍🎓 Students
+        </a>
+
+    </div>
+
+    <div class="today">
+
+        <h2>Today's Attendance</h2>
+
+        <table id="attendanceTable">
+
+            <thead>
+                <tr>
+                    <th>Student No.</th>
+                    <th>Name</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<footer>
+    QR Attendance System © 2026
+</footer>
+
+</body>
+</html>
