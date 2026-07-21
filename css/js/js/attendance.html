@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance History</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/attendance.js" defer></script>
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1>📋 Attendance History</h1>
+</header>
+
+<div class="container">
+
+    <div class="actions">
+        <a href="index.html" class="btn">🏠 Dashboard</a>
+        <a href="scan.html" class="btn">📷 Scan QR</a>
+        <button class="btn" onclick="exportCSV()">📥 Export CSV</button>
+    </div>
+
+    <div class="today">
+
+        <table id="historyTable">
+
+            <thead>
+                <tr>
+                    <th>Student No.</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
