@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/students.js" defer></script>
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1>👨‍🎓 Students</h1>
+</header>
+
+<div class="container">
+
+    <div class="actions">
+        <a href="index.html" class="btn">🏠 Dashboard</a>
+        <a href="scan.html" class="btn">📷 Scan QR</a>
+        <a href="attendance.html" class="btn">📋 Attendance</a>
+    </div>
+
+    <div class="today">
+
+        <input
+            type="text"
+            id="searchStudent"
+            placeholder="Search student..."
+            style="width:100%;padding:12px;margin-bottom:20px;border-radius:8px;border:1px solid #ccc;"
+        >
+
+        <table id="studentsTable">
+
+            <thead>
+
+                <tr>
+                    <th>Student No.</th>
+                    <th>Student Name</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
