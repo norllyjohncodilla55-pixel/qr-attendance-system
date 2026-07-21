@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan QR Code</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/html5-qrcode" defer></script>
+    <script src="js/scanner.js" defer></script>
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1>📷 Scan Student QR Code</h1>
+</header>
+
+<div class="container">
+
+    <div class="today">
+
+        <div id="reader" style="width:100%;max-width:500px;margin:auto;"></div>
+
+        <br>
+
+        <div id="scanResult" style="text-align:center;font-size:20px;font-weight:bold;">
+            Ready to scan...
+        </div>
+
+        <br>
+
+        <div style="text-align:center;">
+            <a href="index.html" class="btn">🏠 Dashboard</a>
+            <a href="attendance.html" class="btn">📋 Attendance</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
